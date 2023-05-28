@@ -1,0 +1,11 @@
+.property-links-section {
+	.link-item {
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+
+		.btn-holder {
+			margin-top: 10px;
+		}
+	}
+}

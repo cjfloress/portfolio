@@ -1,0 +1,143 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+	color: $text-color;
+	font: normal 125% / 1.4 $text-font-stack;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 1.2;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+h5 {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+h6 {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+p,
+li {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+	word-break: normal;
+}
+
+a {
+	font-weight: 500;
+	line-height: 1.25;
+	text-decoration: none;
+	color: $text-color;
+
+	&:hover {
+		color: $primary;
+		text-decoration: underline;
+		text-underline-offset: 2px;
+	}
+}
+
+.disclaimer {
+	font-size: 10px;
+}
+
+.text-light-green {
+	color: $secondary;
+}
+
+.fw-normal {
+	font-weight: 400;
+}
+
+.fw-semibold {
+	font-weight: 600;
+}
+
+.fw-medium {
+	font-weight: 500;
+}
+
+.main-content {
+	display: block;
+	width: 100%;
+	min-height: 100%;
+}
+
+.signature {
+	font-family: $signature;
+}
+
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+}

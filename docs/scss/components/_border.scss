@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the border component.
+// -----------------------------------------------------------------------------
+.with-border {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 1px;
+		width: 100%;
+		max-width: 700px;
+		background-color: $secondary;
+	}
+
+	@media (max-width: 991px) {
+		&::after {
+			max-width: 688px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		&::after {
+			max-width: 508px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		&::after {
+			max-width: calc(100% - 32px);
+		}
+	}
+}

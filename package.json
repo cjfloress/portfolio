@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Landing Page for Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch docs/scss:docs/assets/css",
+    "minified:css": "css-minify -f docs/assets/css/style.css -o docs/assets/css/"
+  },
+  "author": "Christian Flores",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.1.0"
+  }
+}

@@ -1,0 +1,86 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+* {
+	-webkit-user-drag: initial;
+	user-select: initial;
+}
+
+section::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 20px;
+}
+
+.btn,
+a {
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+
+	@include on-event {
+		outline: 0;
+		@include boxshadow(none);
+	}
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-focus-ring-color: none;
+	outline: none;
+
+	@include on-event {
+		@include boxshadow(none);
+	}
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+input::placeholder {
+	color: #95a1bb;
+}
+
+ul {
+	list-style: disc;
+	padding-left: 16px;
+}
+
+.container {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.bg-grey {
+	background-color: $neutral-200;
+}
+
+@media (min-width: 576px) {
+	section {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		min-height: 40px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 732px;
+	}
+}
