@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the spacing.
+// -----------------------------------------------------------------------------
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-10 {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.mb-12 {
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.mb-20 {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.mb-24 {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.mb-28 {
+  &:not(:last-child) {
+    margin-bottom: 28px;
+  }
+}
+
+.mb-40 {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
