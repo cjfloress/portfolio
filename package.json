@@ -4,8 +4,8 @@
   "description": "Landing Page for Portfolio",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch docs/scss:docs/assets/css",
-    "minified:css": "css-minify -f docs/assets/css/style.css -o docs/assets/css/"
+    "compile:sass": "sass --watch src/scss:src/assets/css",
+    "minified:css": "css-minify -f src/assets/css/style.css -o src/assets/css/"
   },
   "author": "Christian Flores",
   "license": "ISC",
