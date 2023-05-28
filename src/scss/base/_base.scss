@@ -13,8 +13,8 @@ section::after {
 }
 
 section {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	min-height: 20px;
 }
 
@@ -73,8 +73,8 @@ ul {
 
 @media (min-width: 576px) {
 	section {
-		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		min-height: 40px;
 	}
 }
