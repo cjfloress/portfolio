@@ -2,23 +2,11 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-@font-face {
-	font-family: 'Harcourts Script';
-	src: url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.eot');
-	src: url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.eot?#iefix') format('embedded-opentype'), url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.woff2') format('woff2'), url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.woff') format('woff'), url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.ttf') format('truetype'), url('https://s3-ap-southeast-2.amazonaws.com/mydesign3.websiteblue.com/resources/admin/4349/Fonts/HarcourtsScript.svg#Harcourts Script') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
 /// Default font family
-$font-default: 'Source Sans Pro';
+$font-default: 'Roboto';
 
 /// @type List
 $text-font-stack: $font-default, 'Helvetica', 'Arial', sans-serif !default;
-
-// Custom font family
-$signature: 'Harcourts Script', 'Helvetica', 'Arial', sans-serif;
 
 // Custom Colors
 $neutral-100: #f6f7fa;
